@@ -52,7 +52,8 @@ config :sbwatch, SbwatchWeb.Endpoint,
       ~r"priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
       ~r"lib/sbwatch_web/{live,views}/.*(ex)$",
-      ~r"lib/sbwatch_web/templates/.*(eex)$"
+      ~r"lib/sbwatch_web/templates/.*(eex)$",
+      ~r{lib/sbwatch_web/live/.*(ex)$}
     ]
   ]
 
